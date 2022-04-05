@@ -1,1 +1,2 @@
 # Developer_Style_BEEMOD
+BE SURE TO RENAME THE .ZIP TO .BEE_PACK
