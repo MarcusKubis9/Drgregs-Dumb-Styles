@@ -1,0 +1,94 @@
+"ID"    "BEE2_DEV_STYLE"
+"Name"  "Dev Style"
+"Desc"  "Not only for Developers!.\n\nThis cannot be disabled!."
+
+
+"Prerequisites"
+	{
+	"Package"	"VALVE_MUSIC"
+	}
+
+
+"Style"
+	{
+	"ID"          "BEE2_DEV"
+	"Authors"     "Drgregs"
+	"Folder"      "clean"
+	"Icon"        "styles/dev.png"
+	"IconLarge"   "prev/dev_BETA.png"
+	"Name"        "Developer Style"
+	"Base"        ""
+	
+	"Has_Video"   "1"
+	"Description" "This is a Dev texture style I made because we need a custom style"
+	"Suggested"
+		{
+		"Quote"  "BEE2_WHEATLEY"
+		"Music"  "VALVE_PETI"
+		"Skybox" "BEE2_DEV"
+		"Elev"   "VALVE_BLUESCREEN"
+		}
+	"Corridors"
+		{
+		"icon_folder" "clean"
+		"sp_entry"
+			{
+			"2"	"Right Turn"
+			"3"	"Right S-Bend"
+			"6"	"Stairs"
+			"7"	"Left Turn"
+			}
+		"sp_exit"
+			{
+			}
+		"coop"
+			{
+			"4" "Drop"
+			}
+		}
+	}
+
+"StyleVar"
+	{
+	"ID"          "DoorCameras"
+	"Enabled"     "1"
+	"Name"        "Door Cameras"
+	"Description" "Automatically add cameras around the entry and exit doors."
+	"Style"       "BEE2_DEV"
+	}
+
+"StyleVar"
+	{
+	"ID"          "RestartOnExit"
+	"Enabled"     "1"
+	"Name"        "Restart When Reaching Exit"
+	"Description" "Automatically restart the map once the player(s) have reached the exit."
+	"Style"       "BEE2_DEV"
+	}
+
+	
+"SkyBox"
+	{
+	"ID"            "BEE2_DEV"
+	"Name"          "Dev Skybox"
+	"Group"         "3D"
+	"Icon"		"skies/dev_icon.png"
+	"IconLarge"     "prev/sky_dev_beta.png"
+	"Material"      "sky_day01_01"
+	"Authors"       "Drgregs"
+	"Description"   "Skybox for the Developer style."
+	
+	"Fog"
+		{
+		"start"     "128"
+        "end"       "5000"
+        "density"   "0.95"
+        
+        "primaryColor"      "255 145 0"
+        
+        "tonemap_rate"          "0.25"
+        "tonemap_brightpixels"  "5"
+        "tonemap_exposure_min"  ".5"
+        "tonemap_exposure_max"  "3"
+		}
+	}
