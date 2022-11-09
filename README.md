@@ -8,3 +8,6 @@ Installation:
 3. Drag and drop the .bee_pack or .ZIP file into it
 4. Restart Beemod
 5. Enjoy
+
+
+# WARNING: Drgregs Dumb Styles DOES NOT, and WILL NOT, Support the latest version of beemod until they fix the latest release
