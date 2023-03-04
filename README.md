@@ -10,4 +10,4 @@ Installation:
 5. Enjoy
 
 
-# WARNING: Drgregs Dumb Styles does not currently support any latest versions of beemod, it is recommended you do not use DDS until I can find out what the fuck is causing maps to not compile
+#This is deader than dirt, I have no plans to revive this, If you wish to use it please backport to version 4.41.0, The only way I see myself continuing this is if someone else fixes it for me, if you want to try your luck at fixing this here is his message:https://discordapp.com/channels/293435914598744064/882493616554123295/1072419555550429194
